@@ -8,8 +8,6 @@ function verificaNome (nome) {
 
     const arrayNome = nome.split(' ')
 
-    console.log(arrayNome)
-
     return arrayNome.length >= 2
 
 }
@@ -48,8 +46,6 @@ formulario.addEventListener('submit', function (e) {
 })
 
 nomeBeneficiario.addEventListener('change', function (e) {
-
-    console.log(e)
 
     const containerErroNome = document.getElementById('containerMsgErroName')
 
